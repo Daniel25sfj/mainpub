@@ -1,0 +1,96 @@
+*/ {
+  font-family: "Big Shoulders Display", serif;
+  font-weight: 700;
+  font-family: "Big Shoulders Display", serif;
+  font-weight: 400;
+}
+
+body {
+  background-color: hsl(0, 0%, 95%);
+  font-size: 15px;
+  font-weight: 700;
+  display: flex;
+  font-family: "Lexend Deca", serif;  
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  
+}
+
+#Sedan_card {
+  background-color: hsl(31, 77%, 52%);
+
+}
+
+#Suv_card {
+  background-color: hsl(184, 100%, 22%);
+
+}
+
+#Luxury_card {
+  background-color: hsl(179, 100%, 13%);
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-weight: 700;
+ 
+}
+
+.btn {
+  color: hsla(0, 0%, 100%, 0.75);
+  background-color: aliceblue;
+  font-weight: 700;
+  font-size: 15px;
+  border-radius: 30px;  
+  border: 2px solid hsla(0, 0%, 100%, 0.75);
+  padding: 16px 0;
+}
+
+  
+.heading {
+  color: hsla(0, 0%, 100%, 0.75);
+  text-transform: uppercase;
+  font-weight: 700;
+}
+#Button_color_Sedan {
+  color: hsl(31, 77%, 52%);
+}
+
+#Button_color_Suv {
+  color: hsl(184, 100%, 22%);
+}
+
+#Button_color_Luxury {
+  color: hsl(179, 100%, 13%);
+}
+
+.card_flex {
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+    align-content: space-between;
+}
+
+.card {
+  /* height: 400px; */
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 32px;  
+}
+
+img {
+width: 100px;
+height: auto; 
+}
+
+
+ #card .btn:hover{
+  background-color:transparent;
+  color: hsla(0, 0%, 100%, 0.75);
+  
+  
+  
+}
